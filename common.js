@@ -11,3 +11,6 @@ $('body').animate({ scrollTop: offsetTop}, 200);
 // firefox
 document.documentElement.scrollTop = offsetTop;
 /* --- end --- */
+
+/* --- 判断一个元素当前是否显示 ---*/
+$(element).is(':visible');
